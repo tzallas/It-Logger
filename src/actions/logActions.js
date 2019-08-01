@@ -1,11 +1,13 @@
 import { GET_LOGS, SET_LOADING, LOGS_ERROR } from "./types";
 
+
+//Get logs from server
 export const getLogs = () => async dispatch => {
     try {
         setLoading();
 
         const res = await fetch('/logs');
-        const data = await res.json;
+        const data = await res.json();
 
         dispatch({
             type: GET_LOGS,
@@ -20,6 +22,7 @@ export const getLogs = () => async dispatch => {
     }
 };
 
+//set loading to true
 export const setLoading = () => {
     return {
         type: SET_LOADING
