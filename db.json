@@ -1,11 +1,11 @@
 {
   "logs": [
     {
+      "id": 1,
       "message": "Changed network to sever 007",
       "attention": false,
-      "tech": "Sam Smith",
-      "date": "2019-08-05T19:47:26.552Z",
-      "id": 1
+      "tech": "John Doe",
+      "date": "2019-09-09T19:34:39.128Z"
     },
     {
       "id": 2,
